@@ -3,7 +3,7 @@
         "id":1, 
         "nombre":"DOWNSHIFTER", 
         "descripcion":"Sentí la estabilidad con la banda de ajuste en el mediopié. La espuma suave en la entresuela ayuda a amortiguar el pie en cada pisada. Al tener mayor altura, brinda una sensación más suave mientras corres.", 
-        "precio":30000 ,
+        "precio":30000,
         "imagen":"https://thumbs.nosto.com/quick/rbxh5h46/8/551526_alt_790144873fda5371cd61258db2eb19e411cf861161255b7c7ed9114ab9f00d50/19037db892b62fe655424d2c2aaedef6924be29b81b03db853e2b9e2473a0508/A",
         "stock":10,
         "categoria":"zapatillas"
@@ -12,9 +12,9 @@
         "id":2,
         "nombre":"PEGASUS TRAIL",
         "descripcion":"La espuma NIKE React, que va desde el talón hasta la punta, proporciona una amortiguación eficaz y estable para brindar comodidad y transiciones suaves en terrenos rocosos.",
-        "precio": 47000,
+        "precio":47000,
         "imagen":"https://thumbs.nosto.com/quick/rbxh5h46/8/523289_alt_fe817ca2b83543688635e380157f2c0f04e29e50491f4d439f003dac90ca6b2f/0424dabb467f9b46b5dccc254f2c5b8da485c601b91c28fb1745bc2eae06ae6d/A",
-        "stock": 10,
+        "stock":10,
         "categoria":"zapatillas"
     },
     {
@@ -30,7 +30,7 @@
         "id":4,
         "nombre":"AIR ZOOM VOMERO",
         "descripcion":"El caucho es resistente a la abrasión en la suela exterior brindando una tracción duradera. Diseñada para corredores con pisada neutra.",
-        "precio": 55000,
+        "precio":55000,
         "imagen":"https://media.solodeportes.com.ar/media/catalog/product/cache/faae2c37ab1d315e4b697a7f62b421b7/z/a/zapatillas-running-nike-air-zoom-vomero-16-gris-72467690-510010da7245004-2.jpg",
         "stock":10,
         "categoria":"zapatillas"
