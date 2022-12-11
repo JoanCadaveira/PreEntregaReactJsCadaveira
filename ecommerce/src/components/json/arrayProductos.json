@@ -1,0 +1,218 @@
+[
+    {
+        "id":1, 
+        "nombre":"DOWNSHIFTER", 
+        "descripcion":"Sentí la estabilidad con la banda de ajuste en el mediopié. La espuma suave en la entresuela ayuda a amortiguar el pie en cada pisada. Al tener mayor altura, brinda una sensación más suave mientras corres.", 
+        "precio":30000 ,
+        "imagen":"https://thumbs.nosto.com/quick/rbxh5h46/8/551526_alt_790144873fda5371cd61258db2eb19e411cf861161255b7c7ed9114ab9f00d50/19037db892b62fe655424d2c2aaedef6924be29b81b03db853e2b9e2473a0508/A",
+        "stock":10,
+        "categoria":"zapatillas"
+    },
+    {
+        "id":2,
+        "nombre":"PEGASUS TRAIL",
+        "descripcion":"La espuma NIKE React, que va desde el talón hasta la punta, proporciona una amortiguación eficaz y estable para brindar comodidad y transiciones suaves en terrenos rocosos.",
+        "precio": 47000,
+        "imagen":"https://thumbs.nosto.com/quick/rbxh5h46/8/523289_alt_fe817ca2b83543688635e380157f2c0f04e29e50491f4d439f003dac90ca6b2f/0424dabb467f9b46b5dccc254f2c5b8da485c601b91c28fb1745bc2eae06ae6d/A",
+        "stock": 10,
+        "categoria":"zapatillas"
+    },
+    {
+        "id":3,
+        "nombre":"QUEST 5",
+        "descripcion":"El aumento de altura ofrece mayor suavidad durante la carrera. La suela exterior de goma con tracción mantiene los pies sobre el asfalto.",
+        "precio":27300,
+        "imagen":"https://media.solodeportes.com.ar/media/catalog/product/cache/faae2c37ab1d315e4b697a7f62b421b7/z/a/zapatillas-running-nike-quest-5-azul-510010dd0204400-2.jpg",
+        "stock":10,
+        "categoria":"zapatillas"
+    },
+    {
+        "id":4,
+        "nombre":"AIR ZOOM VOMERO",
+        "descripcion":"El caucho es resistente a la abrasión en la suela exterior brindando una tracción duradera. Diseñada para corredores con pisada neutra.",
+        "precio": 55000,
+        "imagen":"https://media.solodeportes.com.ar/media/catalog/product/cache/faae2c37ab1d315e4b697a7f62b421b7/z/a/zapatillas-running-nike-air-zoom-vomero-16-gris-72467690-510010da7245004-2.jpg",
+        "stock":10,
+        "categoria":"zapatillas"
+    },
+    {
+        "id":5,
+        "nombre":"AIR ZOOM PEGASUS",
+        "descripcion":"La plantilla de alta resistencia se adapta al contorno de su pie para brindar soporte. Diseñadas para corredoras con pisada neutra.",
+        "precio":43500,
+        "imagen":"https://media.solodeportes.com.ar/media/catalog/product/cache/faae2c37ab1d315e4b697a7f62b421b7/z/a/zapatillas-running-nike-air-zoom-pegasus-36-mujer-lila-510010aq2210005-21.jpg",
+        "stock":10,
+        "categoria":"zapatillas"
+    },
+    {
+        "id":6,
+        "nombre":"REVOLUTION",
+        "descripcion":"Confeccionado con al menos un 20% de contenido reciclado en peso, ligero, transpirable y acolchado para los pies en crecimiento",
+        "precio":20500,
+        "imagen":"https://media.solodeportes.com.ar/media/catalog/product/cache/faae2c37ab1d315e4b697a7f62b421b7/z/a/zapatillas-running-nike-revolution-6-ni-o-ni-a-negra-94222018-510010dd1103013-2.jpg",
+        "stock":10,
+        "categoria":"zapatillas"
+    },
+    {
+        "id":7,
+        "nombre":"SPORTSWEAR CLUB",
+        "descripcion":"La remera NIKE Sportswear está confeccionada con nuestra tela de algodón de uso diario en un ajuste clásico que brinda una sensación familiar desde el primer uso.",
+        "precio":7000,
+        "imagen":"https://media.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/r/e/remera-nike-sportswear-club-negra-510020ar4997013-1.jpg",
+        "stock":10,
+        "categoria":"remeras"
+    },
+    {
+        "id":8,
+        "nombre":"SHINE FUTURA",
+        "descripcion":"La cantidad perfecta de oro hace que brille sin importar el clima.",
+        "precio":9300,
+        "imagen":"https://media.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/r/e/remera-nike-shine-futura-negra-510020dm2266010-1.jpg",
+        "stock":10,
+        "categoria":"remeras"
+    },
+    {
+        "id":9,
+        "nombre":"FUTURA ICON",
+        "descripcion":"Ideal para desarrollar cualquier tipo de actividad urbana. Diseño con estilo.",
+        "precio":8000,
+        "imagen":"https://media.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/5/1/510020ar5004010-1.jpg",
+        "stock":10,
+        "categoria":"remeras"
+    },
+    {
+        "id":10,
+        "nombre":"RUNNING DRI-FIT MILER",
+        "descripcion":"Tiene rendimiento ligero y movilidad para el corredor de nivel inicial. Una nueva tela hecha de un hilo corrugado crea el flujo de aire para mantenerte fresco.",
+        "precio":10000,
+        "imagen":"https://media.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/m/u/musculosa-nike-running-dri-fit-miler-negra-510020cu5982010-1.jpg",
+        "stock":10,
+        "categoria":"remeras"
+    },
+    {
+        "id":11,
+        "nombre":"JUST DO IT",
+        "descripcion":"Los nuevos cortes y los estampados clásicos se combinan para ayudarte a combinar la remera NIKE Sportswear JDI con tu zapatillas favoritas.",
+        "precio":8000,
+        "imagen":"https://media.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/r/e/remera-nike-just-do-it-blanca-510020dn5235100-1.jpg",
+        "stock":10,
+        "categoria":"remeras"
+    },
+    {
+        "id":12,
+        "nombre":"SPORTSWEAR SWOOSH LEAGUE",
+        "descripcion":"La remera NIKE Sportswear Swoosh League está confeccionada con nuestro algodón casual y un ajuste clásico para una sensación cómoda y acogedora.",
+        "precio":8000,
+        "imagen":"https://media.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/r/e/remera-nike-sportswear-swoosh-league-negra-510020dm6341010-1.jpg",
+        "stock":10,
+        "categoria":"remeras"
+    },
+    {
+        "id":13,
+        "nombre":"SPORTSWEAR CLUB CARGO",
+        "descripcion":"Este short NIKE Sportswear Club está confeccionado con un suave tejido Fleece cepillado que brinda una sensación cómoda ideal para el uso diario.",
+        "precio":12500,
+        "imagen":"https://media.solodeportes.com.ar/media/catalog/product/cache/faae2c37ab1d315e4b697a7f62b421b7/s/h/short-nike-sportswear-club-cargo-gris-510020cz9956063-1.jpg",
+        "stock":10,
+        "categoria":"pantalones"
+    },
+    {
+        "id":14,
+        "nombre":"RUNNING TEMPO LUXE",
+        "descripcion":"El ADN icónico de los shorts NIKE Tempo Luxe se actualiza con un ajuste anatómico y mucho espacio de almacenamiento.",
+        "precio":15300,
+        "imagen":"https://media.solodeportes.com.ar/media/catalog/product/cache/faae2c37ab1d315e4b697a7f62b421b7/s/h/short-con-calza-nike-running-tempo-luxe-mujer-negro-510020cz9574010-1.jpg",
+        "stock":10,
+        "categoria":"pantalones"
+    },
+    {
+        "id":15,
+        "nombre":"SHORT LOS PUMAS",
+        "descripcion":"Este es el nuevo Short de Los PUMAS que usan para entrenarse, sacá tus garras. Cintura elastizada con cordón de ajuste interno.",
+        "precio":20000,
+        "imagen":"https://media.solodeportes.com.ar/media/catalog/product/cache/faae2c37ab1d315e4b697a7f62b421b7/s/h/short-de-entrenamiento-los-pumas-nike-azul-510020ci0011492-1.jpg",
+        "stock":10,
+        "categoria":"pantalones"
+    },
+    {
+        "id":16,
+        "nombre":"ACADEMY 21",
+        "descripcion":"Los shorts NIKE Dri-FIT Academy están confeccionados con una suave tela absorbente de sudor para mantenerte seco cuando aumenta la intensidad del partido.",
+        "precio":5800,
+        "imagen":"https://media.solodeportes.com.ar/media/catalog/product/cache/faae2c37ab1d315e4b697a7f62b421b7/s/h/short-de-futbol-nike-academy-21-ni_o-negro-510020cw6109016-1.jpg",
+        "stock":10,
+        "categoria":"pantalones"
+    },
+    {
+        "id":17,
+        "nombre":"SPORTSWEAR ESSENTIAL",
+        "descripcion":"El short NIKE Sportswear está confeccionado con un suave tejido French terry y cuenta con un dobladillo curvo para ofrecer un estilo veraniego y elegante.",
+        "precio":13500,
+        "imagen":"https://media.solodeportes.com.ar/media/catalog/product/cache/faae2c37ab1d315e4b697a7f62b421b7/s/h/short-nike-sportswear-essential-mujer-negro-510020cj2158010-1.jpg",
+        "stock":10,
+        "categoria":"pantalones"
+    },
+    {
+        "id":18,
+        "nombre":"RUNNING ICON CLASH",
+        "descripcion":"Ligero y suave, el short NIKE Tempo Icon Clash ofrece la comodidad que disfrutás. El estampado a cuadros está inspirado en los trajes elegantes para ayudarte a darle confianza a tu paso.",
+        "precio":9800,
+        "imagen":"https://media.solodeportes.com.ar/media/catalog/product/cache/faae2c37ab1d315e4b697a7f62b421b7/s/h/short-nike-running-icon-clash-tempo-mujer-rojo-510020dd6005673-1.jpg",
+        "stock":10,
+        "categoria":"pantalones"
+    },
+    {
+        "id":19,
+        "nombre":"CLUB",
+        "descripcion":"Buzo con capucha NIKE Sportswear Club, un elemento básico del armario, combina el estilo clásico con la comodidad suave del tejido Fleece.",
+        "precio":16500,
+        "imagen":"https://media.solodeportes.com.ar/media/catalog/product/cache/faae2c37ab1d315e4b697a7f62b421b7/b/u/buzo-con-capucha-nike-club-gris-510020bv2654071-1.jpg",
+        "stock":10,
+        "categoria":"abrigos"
+    },
+    {
+        "id":20,
+        "nombre":"SPORTSWEAR ICON CLASH",
+        "descripcion":"La campera NIKE Sportswear actualiza un clásico estilo de entrenamiento con un estampado tipo cielo en toda la prenda y un vibrante gráfico Swoosh.",
+        "precio":25500,
+        "imagen":"https://media.solodeportes.com.ar/media/catalog/product/cache/faae2c37ab1d315e4b697a7f62b421b7/c/a/campera-con-capucha-nike-sportswear-icon-clash-mujer-gris-510020cz9318084-1.jpg",
+        "stock":10,
+        "categoria":"abrigos"
+    },
+    {
+        "id":21,
+        "nombre":"CAMPERA RUNNING ICON CLASH",
+        "descripcion":"Subí el cierre y corré con comodidad de peso pluma con la campera rompeviento NIKE Icon Clash. Esta campera liviana te ayuda a mantenerte afuera en los meses húmedos y frescos, con protección UV y la cobertura ajustable que te encanta.",
+        "precio":31600,
+        "imagen":"https://media.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/c/a/campera-rompeviento-nike-running-icon-clash-mujer-marron-510020dm7473215-1.jpg",
+        "stock":10,
+        "categoria":"abrigos"
+    },
+    {
+        "id":22,
+        "nombre":"ICON CLASH",
+        "descripcion":"Lucí perfecta para el invierno con este buzo NIKE Icon Clash para mujer que ofrece un diseño moderno y cálido.",
+        "precio":20000,
+        "imagen":"https://media.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/c/a/campera-con-capucha-nike-sportswear-icon-clash-mujer-gris-510020cz9318084-1.jpg",
+        "stock":10,
+        "categoria":"abrigos"
+    },
+    {
+        "id":23,
+        "nombre":"FUTURA",
+        "descripcion":"Esta campera para niños posee una cómoda capucha. Cintura y puños elastizados.",
+        "precio": 14600,
+        "imagen":"https://media.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/5/1/51102036e092023-1.jpg",
+        "stock":10,
+        "categoria":"abrigos"
+    },
+    {
+        "id":24,
+        "nombre":"CAMPERA JERSEY",
+        "descripcion":"Esta campera posee un cuello alto con capucha. Ofrece puños elastizados y bolsillos laterales.",
+        "precio":12300,
+        "imagen":"https://media.solodeportes.com.ar/media/catalog/product/cache/faae2c37ab1d315e4b697a7f62b421b7/5/1/510020aa6628011-1.jpg",
+        "stock":10,
+        "categoria":"abrigos"
+    }
+]

@@ -19,6 +19,16 @@ body {
   background-color: rgba(146, 145, 145, 0.63);
 }
 
+.card{
+  background-color: rgba(238, 238, 238, 0.74);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+}
+
+.espacio{
+  width: 100px;
+}
+
 .footer {
   color: white;
   background-color: rgba(146, 145, 145, 0.63);
