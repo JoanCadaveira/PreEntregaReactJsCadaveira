@@ -1,10 +1,15 @@
 import React, { useState } from "react";
+import { useEffect } from "react";
 
 const ItemCount = ({stockItems}) => {
     const [counter, setCounter] = useState(1);
     const [stock, setStock] = useState(stockItems);
 
-    //Funcion para incrementar contador
+    useEffect(()=>{
+        setStock(stockItems)
+     },[stockItems]);
+
+    //Incrementar contador
     const incrementarContador = () => {
         //no dejamos que se ingresen mas del stock limite
         if(counter < stock){
@@ -13,7 +18,7 @@ const ItemCount = ({stockItems}) => {
     }
 
 
-    //Funcion para decrementar contador
+    //Decrementar contador
     const decrementarContador = () => {
         //no dejamos que se ingresen nªs negativos
         if(counter > 1){
@@ -21,7 +26,7 @@ const ItemCount = ({stockItems}) => {
         }
     }
 
-    //Funcion para agregar productos al carro y no sobrepasar el stock disponible
+    //Agregar productos al carro y no sobrepasar el stock disponible
     const onAdd = () => {
         if((stock > 0) && (counter <= stock)){
         console.log("Agregaste " + counter + " productos al carro")

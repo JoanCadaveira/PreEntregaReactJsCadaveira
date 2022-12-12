@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import ItemList from "./ItemList";
 import arrayProductos from "./json/arrayProductos.json";
 
+
 const ItemListContainer = () => {
     const [items, setItems] = useState([]);
     const {id} = useParams();
@@ -25,6 +26,7 @@ const ItemListContainer = () => {
     return(
         <div className="container py-5">
             <ItemList items={items} /> 
+            
         </div>
     )
 }
