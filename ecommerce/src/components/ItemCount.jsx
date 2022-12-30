@@ -1,18 +1,15 @@
-import React, { useState } from "react";
-import { useEffect } from "react";
+import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
-const ItemCount = ({stockItems}) => {
+const ItemCount = ({stock, onAdd}) => {
     const [counter, setCounter] = useState(1);
-    const [stock, setStock] = useState(stockItems);
-
-    useEffect(()=>{
-        setStock(stockItems)
-     },[stockItems]);
+    const [itemStock, setItemStock] = useState(stock);
+    const [vendio, setVendido] = useState(false);
 
     //Incrementar contador
     const incrementarContador = () => {
         //no dejamos que se ingresen mas del stock limite
-        if(counter < stock){
+        if(counter < itemStock){
             setCounter(counter + 1);
         }     
     }
@@ -27,15 +24,24 @@ const ItemCount = ({stockItems}) => {
     }
 
     //Agregar productos al carro y no sobrepasar el stock disponible
-    const onAdd = () => {
+    const addToCart = (quantity) => {
+        setItemStock(itemStock - quantity);
+        //resteamos el contador
+        setCounter(0);
+        setVendido(true);
+        onAdd(quantity);
+        /*
         if((stock > 0) && (counter <= stock)){
         console.log("Agregaste " + counter + " productos al carro")
         setStock(stock - counter);
-        //resteamos el contador
         setCounter(0);
         }
+        */  
     }
 
+    useEffect(() => {
+        setItemStock(stock);
+    }, [stock]);
 
     return(
         <div className="container">
@@ -50,7 +56,9 @@ const ItemCount = ({stockItems}) => {
             </div>
             <div className="row">
                 <div className="col-md-12">
-                    <button className="btn btn-dark" onClick={onAdd}>Agregar al carro</button>
+                    {vendio ? <Link to={"/cart"} className="btn btn-dark">Finalizar compra</Link> : 
+                    <button className="btn btn-dark" onClick={() => {addToCart(counter)}}>Agregar al carro
+                    </button>}
                 </div>
             </div>
         </div>
