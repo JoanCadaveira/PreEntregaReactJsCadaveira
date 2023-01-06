@@ -55,7 +55,8 @@ const Cart = () =>{
                                 <td colSpan={2}>&nbsp;</td>
                                 <td className="text-center">Suma total = </td>
                                 <td className="text-center"><b>${sumTotal()}</b></td>
-                                <td>&nbsp;</td>
+                                <td className="text-end"><Link to={"/checkout"} className="btn fondoCart" 
+                                title="Finalizar compra">Finalizar compra</Link></td>
                             </tr>
                         </tbody>
                     </table>
