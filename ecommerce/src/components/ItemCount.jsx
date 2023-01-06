@@ -30,13 +30,6 @@ const ItemCount = ({stock, onAdd}) => {
         setCounter(0);
         setVendido(true);
         onAdd(quantity);
-        /*
-        if((stock > 0) && (counter <= stock)){
-        console.log("Agregaste " + counter + " productos al carro")
-        setStock(stock - counter);
-        setCounter(0);
-        }
-        */  
     }
 
     useEffect(() => {

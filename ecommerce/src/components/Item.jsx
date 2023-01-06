@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 
 const Item = ({item}) => {
     return(
-        //para llamar solo 1 item seleccionado del array
         <Link to={"/item/" + item.id} className="text-decoration-none text-dark">
             <div className="card mb-3 border border-secondary">
                 <img src={item.imagen} className="card-img-top" alt={item.nombre} />
